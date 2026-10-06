@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F5FF">
+
+    <!-- 제목 -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/result_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 코디 요약 -->
+    <TextView
+        android:id="@+id/txtSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 신발 리스트 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewShoes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/txtSummary"
+        app:layout_constraintBottom_toTopOf="@id/btnSaveOutfit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 코디 저장 -->
+    <Button
+        android:id="@+id/btnSaveOutfit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="이 코디 저장하기"
+        android:backgroundTint="#7B4EFF"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/recyclerViewShoes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 찜한 신발 보기 -->
+    <Button
+        android:id="@+id/btnViewFavorites"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="찜한 신발 보기"
+        android:backgroundTint="@android:color/white"
+        android:textColor="#7B4EFF"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintTop_toBottomOf="@id/btnSaveOutfit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 저장한 코디 보기 -->
+    <Button
+        android:id="@+id/btnViewSavedOutfits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="저장한 코디 보기"
+        android:backgroundTint="@android:color/white"
+        android:textColor="#7B4EFF"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintTop_toBottomOf="@id/btnViewFavorites"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

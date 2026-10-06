@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 신발 정보 -->
+        <TextView
+            android:id="@+id/txtShoeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신발 이름"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/codi_text_main" />
+
+        <TextView
+            android:id="@+id/txtShoeBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="브랜드"
+            android:textSize="13sp"
+            android:textColor="@color/codi_text_sub"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/txtShoeDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천 이유 / 설명"
+            android:textSize="13sp"
+            android:textColor="@color/codi_text_main"
+            android:layout_marginTop="6dp" />
+
+        <!-- 버튼 영역 : 찜하기 + 쇼핑몰 가기 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnFavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="♡ 찜하기"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@color/codi_button_bg"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/btnShop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="쇼핑몰 가기"
+                android:textSize="13sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/codi_button_bg"
+                android:textColor="@color/codi_button_text"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

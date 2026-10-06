@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================= 앱 기본 ================= -->
+    <string name="app_name">CodiShoes</string>
+
+    <!-- ================= 메인 화면 ================= -->
+    <string name="title_codishoes">CodiShoes</string>
+
+    <string name="label_hat">모자</string>
+    <string name="label_bag">가방</string>
+    <string name="label_outer">아우터</string>
+    <string name="label_top">상의</string>
+    <string name="label_bottom">바지</string>
+    <string name="label_style">스타일</string>
+
+    <string name="btn_recommend">신발 추천받기</string>
+
+    <!-- ================= 결과 화면 ================= -->
+    <string name="result_title">오늘의 신발 추천</string>
+    <string name="save_outfit">이 코디 저장하기</string>
+    <string name="view_favorites">찜한 신발 보기</string>
+    <string name="view_saved_outfits">저장한 코디 보기</string>
+
+    <!-- ================= 저장/목록 화면 ================= -->
+    <string name="saved_outfits_title">저장한 코디</string>
+    <string name="favorites_title">찜한 신발</string>
+    <string name="empty_saved_outfits">저장한 코디가 아직 없어요.</string>
+    <string name="empty_favorites">찜한 신발이 아직 없어요.</string>
+
+    <!-- ================= 공통 색상 ================= -->
+    <string-array name="color_options">
+        <item>블랙</item>
+        <item>그레이</item>
+        <item>네이비</item>
+        <item>화이트</item>
+        <item>블루</item>
+        <item>레드</item>
+        <item>핑크</item>
+        <item>그린</item>
+        <item>브라운</item>
+        <item>카키</item>
+        <item>퍼플</item>
+        <item>옐로우</item>
+    </string-array>
+
+    <!-- ================= 모자 색상 ================= -->
+    <string-array name="hat_color_options">
+        <item>착용 안 함</item>
+        <item>블랙</item>
+        <item>그레이</item>
+        <item>네이비</item>
+        <item>화이트</item>
+        <item>블루</item>
+        <item>레드</item>
+        <item>핑크</item>
+        <item>그린</item>
+        <item>브라운</item>
+        <item>카키</item>
+        <item>퍼플</item>
+        <item>옐로우</item>
+    </string-array>
+
+    <!-- ================= 가방 색상 ================= -->
+    <string-array name="bag_color_options">
+        <item>착용 안 함</item>
+        <item>블랙</item>
+        <item>그레이</item>
+        <item>네이비</item>
+        <item>화이트</item>
+        <item>블루</item>
+        <item>레드</item>
+        <item>핑크</item>
+        <item>그린</item>
+        <item>브라운</item>
+        <item>카키</item>
+        <item>퍼플</item>
+        <item>옐로우</item>
+    </string-array>
+
+    <!-- ================= 의상 종류 ================= -->
+    <string-array name="top_type_options">
+        <item>반팔 티셔츠</item>
+        <item>긴팔 티셔츠</item>
+        <item>셔츠</item>
+        <item>후드티</item>
+        <item>니트</item>
+    </string-array>
+
+    <string-array name="outer_type_options">
+        <item>착용 안 함</item>
+        <item>가디건</item>
+        <item>자켓</item>
+        <item>바람막이</item>
+        <item>롱코트</item>
+        <item>패딩</item>
+    </string-array>
+
+    <string-array name="bottom_type_options">
+        <item>데님 팬츠</item>
+        <item>슬랙스</item>
+        <item>트레이닝 팬츠</item>
+        <item>조거 팬츠</item>
+        <item>쇼츠</item>
+    </string-array>
+
+    <!-- ================= 스타일 ================= -->
+    <string-array name="style_options">
+        <item>캐주얼</item>
+        <item>스트릿</item>
+        <item>미니멀</item>
+        <item>포멀</item>
+    </string-array>
+
+    <!-- ================= 신발 필터 ================= -->
+    <string-array name="shoe_type_filter_options">
+        <item>모든 타입</item>
+        <item>스니커즈</item>
+        <item>러닝화</item>
+        <item>로퍼</item>
+        <item>샌들</item>
+        <item>부츠</item>
+        <item>슬리퍼</item>
+    </string-array>
+
+    <string-array name="price_filter_options">
+        <item>모든 가격대</item>
+        <item>₩</item>
+        <item>₩₩</item>
+        <item>₩₩₩</item>
+    </string-array>
+
+</resources>

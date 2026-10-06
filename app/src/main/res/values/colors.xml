@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="codi_primary">#6C5CE7</color>
+    <color name="codi_primary_dark">#4B4DBF</color>
+    <color name="codi_bg">#F5F3FF</color>
+    <color name="codi_card_bg">#FFFFFF</color>
+    <color name="codi_text_main">#222222</color>
+    <color name="codi_text_sub">#666666</color>
+    <color name="codi_chip_bg">#EDE7FF</color>
+    <color name="codi_button_bg">#6C5CE7</color>
+    <color name="codi_button_text">#FFFFFF</color>
+</resources>
